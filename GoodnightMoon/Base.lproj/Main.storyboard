@@ -73,6 +73,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageCollectionView" destination="f4m-Wp-uaI" id="nCc-rn-3UE"/>
                         <outlet property="shadeView" destination="tl4-C1-zPl" id="opT-u7-bfc"/>
                     </connections>
                 </viewController>
