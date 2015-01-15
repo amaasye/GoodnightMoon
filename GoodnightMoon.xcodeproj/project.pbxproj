@@ -14,6 +14,7 @@
 		B0537F091A682BCE00DDA0C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0537F081A682BCE00DDA0C1 /* Images.xcassets */; };
 		B0537F0C1A682BCE00DDA0C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0537F0A1A682BCE00DDA0C1 /* LaunchScreen.xib */; };
 		B0537F181A682BCE00DDA0C1 /* GoodnightMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0537F171A682BCE00DDA0C1 /* GoodnightMoonTests.m */; };
+		B0537F231A6832D000DDA0C1 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0537F221A6832D000DDA0C1 /* ImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B0537F111A682BCE00DDA0C1 /* GoodnightMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodnightMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0537F161A682BCE00DDA0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0537F171A682BCE00DDA0C1 /* GoodnightMoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodnightMoonTests.m; sourceTree = "<group>"; };
+		B0537F211A6832D000DDA0C1 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B0537F221A6832D000DDA0C1 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B0537F021A682BCE00DDA0C1 /* ViewController.h */,
 				B0537F031A682BCE00DDA0C1 /* ViewController.m */,
 				B0537F051A682BCE00DDA0C1 /* Main.storyboard */,
+				B0537F211A6832D000DDA0C1 /* ImageCollectionViewCell.h */,
+				B0537F221A6832D000DDA0C1 /* ImageCollectionViewCell.m */,
 				B0537F081A682BCE00DDA0C1 /* Images.xcassets */,
 				B0537F0A1A682BCE00DDA0C1 /* LaunchScreen.xib */,
 				B0537EFB1A682BCE00DDA0C1 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				B0537F041A682BCE00DDA0C1 /* ViewController.m in Sources */,
 				B0537F011A682BCE00DDA0C1 /* AppDelegate.m in Sources */,
+				B0537F231A6832D000DDA0C1 /* ImageCollectionViewCell.m in Sources */,
 				B0537EFE1A682BCE00DDA0C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
