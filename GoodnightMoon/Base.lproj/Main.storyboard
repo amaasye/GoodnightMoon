@@ -55,6 +55,14 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="WGG-53-BSt"/>
                                 </connections>
                             </collectionView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tl4-C1-zPl" userLabel="Shade View">
+                                <rect key="frame" x="0.0" y="-500" width="320" height="595"/>
+                                <color key="backgroundColor" red="0.21176470589999999" green="0.83529411760000005" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Obq-w3-TEE" appends="YES" id="5tK-Fh-lbQ"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -64,8 +72,16 @@
                             <constraint firstAttribute="trailingMargin" secondItem="f4m-Wp-uaI" secondAttribute="trailing" constant="-16" id="u1B-Ph-Dd9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="shadeView" destination="tl4-C1-zPl" id="opT-u7-bfc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Obq-w3-TEE">
+                    <connections>
+                        <action selector="handlePan:" destination="vXZ-lx-hvc" id="zpy-8p-tS6"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="78" y="319"/>
         </scene>
